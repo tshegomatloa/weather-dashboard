@@ -75,10 +75,17 @@ The supplied app was run first in Expo Go on BlueStacks 5 to record its original
 
 **Completed Weather Dashboard running in BlueStacks 5 using Expo Go:**
 
+<img width="728" height="986" alt="Screenshot 2026-10-07 at 20 00 38" src="https://github.com/user-attachments/assets/d4b16760-52a8-4729-abb6-588d3cdc3dfd" />
+<img width="728" height="986" alt="Screenshot 2026-10-07 at 20 00 30" src="https://github.com/user-attachments/assets/2c8086ed-e5d5-4638-a13a-958ce96389ee" />
+<img width="728" height="986" alt="Screenshot 2026-10-07 at 19 51 00" src="https://github.com/user-attachments/assets/62299edd-3da0-4eef-aad0-a07709ae2e0e" />
 
 
 **Supplied application before corrections (for comparison):**
 
+<img width="1060" height="1042" alt="Screenshot 2026-10-07 at 13 30 01" src="https://github.com/user-attachments/assets/761123d7-7efb-45c0-8fd5-fdc037d5337c" />
+
+<img width="728" height="986" alt="Screenshot 2026-10-07 at 18 49 21" src="https://github.com/user-attachments/assets/b85918a3-c406-4698-b78a-4a2ed778ade6" />
+<img width="728" height="986" alt="Screenshot 2026-10-07 at 18 56 27" src="https://github.com/user-attachments/assets/1e9553ba-89db-4d86-803d-25db7eb07d9f" />
 
 ---
 
