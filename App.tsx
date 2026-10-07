@@ -309,15 +309,15 @@ export default function App() {
             key={weather.city}
             style={[
               styles.cityButton,
-              selectedCity === weather.country &&
+              selectedCity === weather.city &&
                 styles.selectedCityButton,
             ]}
-            onPress={() => setSelectedCity(weather.country)}
+            onPress={() => setSelectedCity(weather.city)}
           >
             <Text
               style={[
                 styles.cityButtonText,
-                selectedCity === weather.country &&
+                selectedCity === weather.city &&
                   styles.selectedCityButtonText,
               ]}
             >
