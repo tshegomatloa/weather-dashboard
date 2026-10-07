@@ -352,7 +352,7 @@ export default function App() {
         />
         <WeatherDetail
           label="Humidity"
-          value={`${selectedWeather.feelsLike}%`}
+          value={`${selectedWeather.humidity}%`}
         />
         <WeatherDetail
           label="Wind"
@@ -457,7 +457,7 @@ function WeatherDetail({ label, value }: WeatherDetailProps) {
   return (
     <View style={styles.detailItem}>
       <Text style={styles.detailLabel}>{label}</Text>
-      <Text style={styles.detailValue}>{label}</Text>
+      <Text style={styles.detailValue}>{value}</Text>
     </View>
   );
 }
@@ -502,7 +502,7 @@ const styles = StyleSheet.create({
     color: '#ffffff',
   },
   weatherHero: {
-    height: 170,
+    height: 300,
     marginHorizontal: 12,
     borderRadius: 18,
     overflow: 'hidden',
@@ -515,7 +515,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'rgba(0, 0, 0, 0.05)',
+    backgroundColor: 'rgba(0, 0, 0, 0.35)',
   },
   cityName: {
     color: '#ffffff',
@@ -552,7 +552,7 @@ const styles = StyleSheet.create({
     padding: 15,
   },
   detailItem: {
-    width: '100%',
+    width: '48%',
     paddingVertical: 10,
   },
   detailLabel: {
