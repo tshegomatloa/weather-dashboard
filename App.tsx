@@ -376,7 +376,7 @@ export default function App() {
         <Text style={styles.sectionTitle}>24 Hour Forecast</Text>
 
         <ScrollView
-          horizontal={false}
+          horizontal={true}
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={styles.horizontalContent}
         >
@@ -385,7 +385,7 @@ export default function App() {
               <Text style={styles.hourTime}>{hour.time}</Text>
               <Text style={styles.forecastIcon}>{hour.icon}</Text>
               <Text style={styles.hourTemperature}>
-                {selectedWeather.temperature}°
+                {hour.temperature}°
               </Text>
             </View>
           ))}
