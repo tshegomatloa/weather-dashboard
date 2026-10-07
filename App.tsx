@@ -60,7 +60,7 @@ const weatherData: WeatherData[] = [
     pressure: 1018,
     uvIndex: 7,
     backgroundImage:
-      'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80',
+'https://images.unsplash.com/photo-1636706519609-988babca3dd5?auto=format&fit=crop&w=1200&q=80',
     hourly: [
       { time: '10 AM', temperature: 24, icon: '☀️' },
       { time: '11 AM', temperature: 25, icon: '☀️' },
@@ -212,7 +212,7 @@ const weatherData: WeatherData[] = [
     pressure: 1012,
     uvIndex: 8,
     backgroundImage:
-      'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80',
+'https://images.unsplash.com/photo-1588028504948-0438a6949588?auto=format&fit=crop&w=1200&q=80',
     hourly: [
       { time: '10 AM', temperature: 25, icon: '☁️' },
       { time: '11 AM', temperature: 26, icon: '🌤️' },
