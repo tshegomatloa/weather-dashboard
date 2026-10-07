@@ -396,19 +396,20 @@ export default function App() {
         <Text style={styles.sectionTitle}>5 Day Forecast</Text>
 
         <View style={styles.dailyContainer}>
-          {selectedWeather.daily.map((day) => {
+          {selectedWeather.daily.map((day) => (
+
             <View key={day.day} style={styles.dailyCard}>
               <Text style={styles.dayName}>{day.day}</Text>
               <Text style={styles.dailyIcon}>{day.icon}</Text>
 
               <View style={styles.dailyTemperatures}>
-                <Text style={styles.highTemperature}>{day.low}°</Text>
-                <Text style={styles.lowTemperature}>{day.high}°</Text>
+                <Text style={styles.highTemperature}>{day.high}°</Text>
+                <Text style={styles.lowTemperature}>{day.low}°</Text>
               </View>
 
               <Text style={styles.conditionText}>{day.condition}</Text>
-            </View>;
-          })}
+            </View>
+          ))}
         </View>
       </View>
 
@@ -608,7 +609,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   dailyCard: {
-    flexDirection: 'column',
+    flexDirection: 'row',
     alignItems: 'center',
     paddingVertical: 12,
     borderBottomWidth: 1,
