@@ -419,7 +419,7 @@ export default function App() {
         <View style={styles.sunMoonCard}>
           <WeatherDetail
             label="Sunrise"
-            value={selectedWeather.sunset}
+            value={selectedWeather.sunrise}
           />
           <WeatherDetail
             label="Sunset"
@@ -642,6 +642,9 @@ const styles = StyleSheet.create({
     fontSize: 13,
   },
   sunMoonCard: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
     backgroundColor: '#ffffff',
     marginHorizontal: 12,
     borderRadius: 15,
