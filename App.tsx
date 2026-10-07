@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import {
+  ImageBackground,
   ScrollView,
   StyleSheet,
   Text,
@@ -327,7 +328,7 @@ export default function App() {
       </View>
 
       <ImageBackground
-        source={selectedWeather.backgroundImage}
+        source={{ uri: selectedWeather.backgroundImage }}
         style={styles.weatherHero}
         imageStyle={styles.weatherHeroImage}
       >
